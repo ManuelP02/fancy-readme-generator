@@ -1,1 +1,0 @@
-# fancy-readme-generator
