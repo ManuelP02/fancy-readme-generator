@@ -35,7 +35,8 @@ function renderLicenseSection(license) {
         'BSD 3': '[BSD 3](https://opensource.org/licenses/BSD-3-Clause)',
         'None': ''
     };
-
+    // Conditional to the none license required, show This project did not required a license 
+    //on the License section of the README file
     if (!license || license.toLowerCase() === 'none') {
         return `
 ## License 
